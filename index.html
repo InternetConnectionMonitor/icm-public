@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Internet Connection Monitor – Google Chrome extension for monitoring and testing internet connectivity. Access log and send to your ISP">
+  <meta name="keywords" content="internet,chrome extension,connection,connectivity,test,icm,internet connection monitor,monitoring">
+  <meta name="author" content="Dmitriy Scherbina">
   <title>Internet Connection Monitor – official web page</title>
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
   <div class="container-fluid">
@@ -41,7 +48,7 @@
 
         <strong>Q:</strong> Where is the extension icon?<br/>
         <strong>A:</strong> A recent Chrome update changed how extensions are displayed. You need to click on the puzzle icon to the right of the address bar and then pin Internet Connection Monitor<br/>
-        <img src="img/activate-internet-connection-monitor-extension.png" width="418" /><br/><br/>
+        <img src="img/activate-internet-connection-monitor-extension.png" style="width: 100%; max-width: 418px" /><br/><br/>
 
         <strong>Q:</strong> What exactly can be monitored?<br/>
         <strong>A:</strong> The extension monitors the internet connection and reports 3 statuses:
@@ -50,6 +57,12 @@
           <li>Connection issues: Wi-Fi/Ethernet connected, internet disconnected</li>
           <li>Offline: internet disconnected</li>
         </ul>
+
+        <strong>Q:</strong> How does the extension test the connectivity?<br/>
+        <strong>A:</strong> The extension uses a combination of Chrome internal API and pinging Google servers via https (port 443). It does not expose any open ports or something else that could compromise user's security<br/><br/>
+
+        <strong>Q:</strong> What is the testing interval?<br/>
+        <strong>A:</strong> Every 3 seconds<br/><br/>
 
         <strong>Q:</strong> Does this extension have access to my browsing history, etc?<br/>
         <strong>A:</strong> It does NOT. Moreover, it does not require any special access at all (you can notice that some other extensions ask you to give them some permissions during the installation process)<br/><br/>
@@ -79,6 +92,14 @@
         <a href="https://chrome.google.com/webstore/detail/internet-connection-monit/hgccfdagfbilbdbkgmfdmmdfmjjoakfo" target="_blank">
           extension's page in Chrome store
         </a> and then click on the <strong>Support</strong> tab.
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col text-center pt-4 pb-4">
+        <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/internet-connection-monit/hgccfdagfbilbdbkgmfdmmdfmjjoakfo" target="_blank">
+          Download for Google Chrome
+        </a>          
       </div>
     </div>
   </body>
