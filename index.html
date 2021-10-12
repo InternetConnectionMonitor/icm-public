@@ -43,13 +43,14 @@
           <li>Play sound when connection goes online or offline</li>
           <li>Access and export events log</li>
           <li>Availability stats</li>
-          <li>Retina-ready icon sets with Chrome dark themes support</li>
+          <li>Retina-ready icon sets</li>
+          <li>Light and dark themes support</li>
           <li>RAM-friendly</li>
         </ul>
 
-        <h5 class="text-center">NEW IN VERSION 3.3</h5>
+        <h5 class="text-center">NEW IN VERSION 3.4</h5>
         <ul>
-          <li>Dark theme</li>
+          <li>Internal UI library update: AngularJS -> ReactJS</li>
         </ul>
       </div>
     </div>
@@ -71,12 +72,13 @@
         <strong>A:</strong> A recent Chrome update changed how extensions are displayed. You need to click on the puzzle icon to the right of the address bar and then pin Internet Connection Monitor<br/>
         <img src="img/activate-internet-connection-monitor-extension.png" style="width: 100%; max-width: 418px" /><br/><br/>
 
+        <a name="statuses"></a>
         <strong>Q:</strong> What exactly can be monitored?<br/>
         <strong>A:</strong> The extension monitors the Internet connection and reports 3 statuses:
         <ul>
-          <li>Online: Wi-Fi/Ethernet connection is stable, Internet connected</li>
-          <li>Connection issues: Wi-Fi/Ethernet connection is stable, no Internet - most likely, provider issue</li>
-          <li>Offline: Wi-Fi/Ethernet is down, no Internet</li>
+          <li><strong>Online:</strong> Internet connected</li>
+          <li><strong>Connection issues:</strong> ICM uses different mechanics to determine whether internet connection is up and running. If Chrome itself cannot properly determine whether Internet connection is down while you're connected to Wi-Fi/Ethernet - this status will popup. It tells you that most likely your Wi-Fi/Ethernet cable is connected, but there is no Internet connection after it. Most likely, it is a provider issue</li>
+          <li><strong>Offline</strong>: Internet disconnected. Wi-Fi/Ethernet may work or not, but Internet itself is unavailable</li>
         </ul>
 
         <strong>Q:</strong> How does the extension test the connectivity?<br/>
