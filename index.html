@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Internet Connection Monitor – Google Chrome extension for monitoring and testing Internet connectivity. Access log and send to your ISP">
-  <meta name="keywords" content="internet,chrome extension,connection,connectivity,test,icm,internet connection monitor,monitoring,interruptions,internet down">
+  <meta name="keywords" content="internet,chrome extension,connection,connectivity,test,icm,internet connection monitor,log,logging,monitoring,interruptions,internet down,latency,ping">
   <meta name="author" content="Dmitriy Scherbina">
   <title>Internet Connection Monitor – official web page</title>
 
@@ -48,9 +48,12 @@
           <li>RAM-friendly</li>
         </ul>
 
-        <h5 class="text-center">NEW IN VERSION 3.4</h5>
+        <h5 class="text-center">NEW IN VERSION 3.5</h5>
         <ul>
-          <li>Internal UI library update: AngularJS -> ReactJS</li>
+          <li>Configurable testing interval</li>
+          <li>Latency measurement</li>
+          <li>UI improvements</li>
+          <li>Bug fixes</li>
         </ul>
       </div>
     </div>
@@ -85,16 +88,19 @@
         <strong>A:</strong> The extension uses a combination of Chrome internal API and pinging Google servers via https (port 443). It does not expose any open ports or something else that could compromise user's security<br/><br/>
 
         <strong>Q:</strong> What is the testing interval?<br/>
-        <strong>A:</strong> Every 3 seconds<br/><br/>
+        <strong>A:</strong> It is configurable. Every 1, 2, 3 or 5 seconds<br/><br/>
 
         <strong>Q:</strong> Does this extension have access to my browsing history, etc?<br/>
-        <strong>A:</strong> It does NOT. Moreover, it does not require any special access at all (you can notice that some other extensions ask you to give them some permissions during the installation process)<br/><br/>
+        <strong>A:</strong> It does NOT. Moreover, it does not require any special access at all (you can notice that other extensions ask you to give them some permissions during the installation process)<br/><br/>
 
         <strong>Q:</strong> Can this extension measure Internet speed?<br/>
         <strong>A:</strong> It cannot. Please, use <a href="https://chrome.google.com/webstore/detail/speedtest-by-ookla/pgjjikdiikihdfpoppgaidccahalehjh?hl=en" target="_blank">Speedtest by Ookla</a><br/><br/>
 
         <strong>Q:</strong> Will it work if Chrome is closed?<br/>
         <strong>A:</strong> Not, it will not. You need to have a Chrome window open to track your connection log. It's relatively easy to add Chrome to autostart on Windows, Mac or Linux<br/><br/>
+
+        <strong>Q:</strong> Can you use it on Microsoft EDGE?
+        <strong>A:</strong> Yes, you can
 
         Icons by <a href="https://flaticon.com" target="_blank">flaticon.com</a>
       </div>
