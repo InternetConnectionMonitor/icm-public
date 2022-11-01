@@ -6,4 +6,4 @@ This a repository that contains a website and serves as a tracking tools for bug
 
 * Read more: https://internetmon.org
 * Download: https://bit.ly/icm-chrome
-* Report bugs and request features: https://github.com/dmishh/internet-connection-monitor-website/projects/1
+* Report bugs and request features: https://github.com/InternetConnectionMonitor/icm-public/issues
