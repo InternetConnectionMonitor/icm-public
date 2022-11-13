@@ -180,9 +180,9 @@ export default function Home() {
         <div className="col-md-6 col-sm-12 text-center">
           {/* <a name="improve-connection"></a> */}
           <h3 className="text-center">Improve your Internet connection</h3>
-          <a href="internet-connection-improvements.html">
+          <Link href="/internet-connection-improvements.html">
             Read how to improve your Internet connection
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -288,9 +288,9 @@ export default function Home() {
           connection overall?
           <br />
           <strong>A:</strong> Read the article about{' '}
-          <a href="https://bit.ly/icm-improve-conn">
+          <Link href="/internet-connection-improvements.html">
             the 3 primary reasons of Internet connection issues
-          </a>
+          </Link>
           <br />
           <br />
           Icons by{' '}
@@ -308,7 +308,7 @@ export default function Home() {
         <div className="col text-center pt-3 pb-3">
           <h3 className="text-center">Privacy Policy</h3>
 
-          <Link href="privacy-policy.html" target="_blank" rel="noreferrer">
+          <Link href="/privacy-policy.html" target="_blank" rel="noreferrer">
             ICM Privacy Policy
           </Link>
         </div>
