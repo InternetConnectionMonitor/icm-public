@@ -12,7 +12,7 @@ export default function DownloadButton() {
             rel="noreferrer"
           >
             <img src={require('public/img/chrome-logo.png')} height="24" alt="" />
-            &nbsp;&nbsp;Download ICM for Google Chrome
+            &nbsp;&nbsp;Install ICM for Google Chrome
           </a>
         </div>
       </div>
