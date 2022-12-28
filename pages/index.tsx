@@ -153,7 +153,7 @@ export default function Home() {
           <div className="col-md-6 col-sm-12 text-center">
             {/* <a name="improve-connection"></a> */}
             <h3 className="text-center">Improve your Internet connection</h3>
-            <Link href="/internet-connection-improvements.html">
+            <Link href="/3-primary-reasons-of-poor-internet-connection.html">
               Read how to improve your Internet connection
             </Link>
           </div>
@@ -260,7 +260,7 @@ export default function Home() {
             connection overall?
             <br />
             <strong>A:</strong> Read the article about{' '}
-            <Link href="/internet-connection-improvements.html">
+            <Link href="/3-primary-reasons-of-poor-internet-connection.html">
               the 3 primary reasons of Internet connection issues
             </Link>
             <br />

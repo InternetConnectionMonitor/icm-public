@@ -10,7 +10,7 @@ const MadeWithLoveInUkraine: NextPage = () => {
           &copy; <a href="mailto:internetmonit@gmail.com">
             Dmytro Shcherbyna
           </a>{' '}
-          2014-2022
+          2014-2023
         </div>
       </div>
     </div>

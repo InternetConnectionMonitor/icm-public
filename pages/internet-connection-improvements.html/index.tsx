@@ -168,6 +168,7 @@ export default function InternetConnectionImprovements() {
               <li>Restart router frequently</li>
             </ul>
             <h4 className="mb-3">Top 5 router options to buy in 2022</h4>
+            <p>*Click on the link to get the actual price</p>
             <ol>
               <li className="pb-3">
                 <a
@@ -182,7 +183,7 @@ export default function InternetConnectionImprovements() {
                   />
                   ASUS AX5700 WiFi 6 Gaming Router (RT-AX86U)
                 </a>
-                &ndash; $269.99
+                &ndash; ~$269.99
               </li>
               <li className="pb-3">
                 <a
@@ -197,7 +198,7 @@ export default function InternetConnectionImprovements() {
                   />
                   TP-Link AX5400 WiFi 6 Router
                 </a>
-                &ndash; $154.99
+                &ndash; ~$154.99
               </li>
               <li className="pb-3">
                 <a
@@ -212,7 +213,7 @@ export default function InternetConnectionImprovements() {
                   />
                   TP-Link AX1800 Wi-Fi 6 Router
                 </a>
-                &ndash; $89.99
+                &ndash; ~$89.99
               </li>
               <li className="pb-3">
                 <a
@@ -227,7 +228,7 @@ export default function InternetConnectionImprovements() {
                   />
                   TP-Link AX1500 Wi-Fi 6 Router
                 </a>
-                &ndash; $66.98
+                &ndash; ~$66.98
               </li>
               <li className="pb-3">
                 <a
@@ -242,7 +243,7 @@ export default function InternetConnectionImprovements() {
                   />
                   Keenetic Speedster
                 </a>
-                &ndash; €49.99, <strong>Europe only</strong>
+                &ndash; ~€49.99, <strong>Europe only</strong>
               </li>
             </ol>
           </div>
