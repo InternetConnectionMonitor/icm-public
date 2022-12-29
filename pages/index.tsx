@@ -43,7 +43,8 @@ export default function Home() {
               </li>
               <li>Latency measurement</li>
               <li>
-                Detect when Internet doesn't work over operating Wi-Fi or Ethernet
+                Detect when Internet doesn't work over operating Wi-Fi or
+                Ethernet
               </li>
               <li>Disconnects, availability and downtime stats</li>
               <li>Play sound when connection goes online or offline</li>
@@ -111,7 +112,7 @@ export default function Home() {
                     src={require('public/img/internet-connection-monitor-offline.jpg')}
                     className="d-block w-100"
                     alt="Offline"
-                    />
+                  />
                 </div>
                 <div className="carousel-item">
                   <img
@@ -144,12 +145,66 @@ export default function Home() {
                 <!-- <span className="visually-hidden">Next</span> -->
               <!-- </button> --> */}
             </div>
+
+            <h5 className="text-center mb-3">🗣️ WHAT PEOPLE ARE SAYING</h5>
+            <div className="mb-5">
+              <div className="row">
+                <div className="col-sm-4">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">Vas Gk</h5>
+                      <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+                      <p className="card-text">
+                        <i>Great tool. We have a main router that reaches 100% cpu
+                        load during the day and this tool is great for logging
+                        the number of disconnects and the duration of them</i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-4">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">Mike Stember</h5>
+                      <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+                      <p className="card-text">
+                        <i>Thanks for your help in revealing, objectively, how bad
+                        my ISP is. The graphics in the statistics are clear to
+                        understand. Somewhere recently the connection log added
+                        a third column show the duration of the status. That was
+                        a nice upgrade as I used to export the data and drop it
+                        in a spread sheet to calculate the duration. Now the
+                        data can be used as is.</i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-4">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">Darien Young</h5>
+                      <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+                      <p className="card-text">
+                        <i>Works great so far. Thanks a lot. Very helpful. Lost
+                        internet connection several times while writing this
+                        short review alone! Haha. The sound indicator is a very
+                        helpful feature. Nice UI design as well with good
+                        options and not confusing in any way. Well done.</i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <DownloadButton />
 
-        <div className="row justify-content-center pt-3" id="improve-connection">
+        <div
+          className="row justify-content-center pt-3"
+          id="improve-connection"
+        >
           <div className="col-md-6 col-sm-12 text-center">
             {/* <a name="improve-connection"></a> */}
             <h3 className="text-center">Improve your Internet connection</h3>
@@ -164,8 +219,9 @@ export default function Home() {
             <strong>Q:</strong> Where is the extension icon?
             <br />
             <strong>A:</strong> At some point Google Chrome changed the way
-            extensions are displayed. You need to click on the puzzle icon to the
-            right of the address bar and then pin Internet Connection Monitor
+            extensions are displayed. You need to click on the puzzle icon to
+            the right of the address bar and then pin Internet Connection
+            Monitor
             <br />
             <img
               src={require('public/img/activate-internet-connection-monitor-extension.png')}
@@ -175,8 +231,8 @@ export default function Home() {
             <br />
             <strong id="statuses">Q:</strong> What exactly can be monitored?
             <br />
-            <strong>A:</strong> The extension monitors the Internet connection and
-            reports 3 statuses:
+            <strong>A:</strong> The extension monitors the Internet connection
+            and reports 3 statuses:
             <ul style={{ listStyle: 'none' }}>
               <li>
                 <strong>🟢 Online:</strong> Internet connected
@@ -184,37 +240,38 @@ export default function Home() {
               <li>
                 <strong>🟠 Connection issues:</strong> if Chrome itself cannot
                 properly determine whether Internet connection is down while
-                you're connected to Wi-Fi/Ethernet - this status will popup. Most
-                likely, your Wi-Fi/Ethernet cable is connected, but there is no
-                Internet connection behind it. In most cases, it is ISP/provider
-                issue
+                you're connected to Wi-Fi/Ethernet - this status will popup.
+                Most likely, your Wi-Fi/Ethernet cable is connected, but there
+                is no Internet connection behind it. In most cases, it is
+                ISP/provider issue
               </li>
               <li>
-                <strong>🔴 Offline:</strong> Internet disconnected. Wi-Fi/Ethernet
-                may work or not, but Internet itself is unavailable
+                <strong>🔴 Offline:</strong> Internet disconnected.
+                Wi-Fi/Ethernet may work or not, but Internet itself is
+                unavailable
               </li>
             </ul>
             <strong>Q:</strong> How does the extension test the connectivity?
             <br />
             <strong>A:</strong> The extension uses a combination of Chrome
-            internal API and pinging Google servers via https (port 443). It does
-            not expose any open ports or something else that could compromise
-            user's security
+            internal API and pinging Google servers via https (port 443). It
+            does not expose any open ports or something else that could
+            compromise user's security
             <br />
             <br />
             <strong>Q:</strong> What is the testing interval?
             <br />
-            <strong>A:</strong> How frequently to ping Google servers to determine
-            the status of Internet connection. The option is configurable: check
-            very 1, 2, 3 or 5 seconds
+            <strong>A:</strong> How frequently to ping Google servers to
+            determine the status of Internet connection. The option is
+            configurable: check very 1, 2, 3 or 5 seconds
             <br />
             <br />
             <strong>Q:</strong> Does this extension have access to my browsing
             history, etc?
             <br />
             <strong>A:</strong> It does NOT. Moreover, it does not require any
-            special access at all (you can notice that other extensions ask you to
-            give them some permissions during the installation process)
+            special access at all (you can notice that other extensions ask you
+            to give them some permissions during the installation process)
             <br />
             <br />
             <strong>Q:</strong> Can this extension measure Internet speed?
@@ -231,18 +288,18 @@ export default function Home() {
             <br />
             <strong>Q:</strong> Will it work if Chrome is closed?
             <br />
-            <strong>A:</strong> Not, it will not. You need to have a Chrome window
-            open to track your connection log. It's relatively easy to add Chrome
-            to autostart on Windows, Mac or Linux
+            <strong>A:</strong> Not, it will not. You need to have a Chrome
+            window open to track your connection log. It's relatively easy to
+            add Chrome to autostart on Windows, Mac or Linux
             <br />
             <br />
             <strong>Q:</strong> Will it work if computer is in sleep?
             <br />
-            <strong>A:</strong> Yes, it should work, but the mechanism of tracking
-            the disconnects while the computer is in sleep has not been thoroughly
-            tested. Macs, for example, wake up every couple minutes and ICM checks
-            the connection. But do not rely on precise measurement during the
-            computer sleep, keep the computer running
+            <strong>A:</strong> Yes, it should work, but the mechanism of
+            tracking the disconnects while the computer is in sleep has not been
+            thoroughly tested. Macs, for example, wake up every couple minutes
+            and ICM checks the connection. But do not rely on precise
+            measurement during the computer sleep, keep the computer running
             <br />
             <br />
             <strong>Q:</strong> Can you use it on Microsoft EDGE?
@@ -256,8 +313,8 @@ export default function Home() {
             are supported
             <br />
             <br />
-            <strong>Q:</strong> Can you give an advice on how to improve Internet
-            connection overall?
+            <strong>Q:</strong> Can you give an advice on how to improve
+            Internet connection overall?
             <br />
             <strong>A:</strong> Read the article about{' '}
             <Link href="/3-primary-reasons-of-poor-internet-connection.html">
@@ -266,11 +323,19 @@ export default function Home() {
             <br />
             <br />
             Icons by{' '}
-            <a href="https://svgrepo.com" target="_blank" rel="noopener noreferrer nofollow">
+            <a
+              href="https://svgrepo.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               svgrepo.com
             </a>{' '}
             and{' '}
-            <a href="https://flaticon.com" target="_blank" rel="noopener noreferrer nofollow">
+            <a
+              href="https://flaticon.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               flaticon.com
             </a>
           </div>
@@ -278,13 +343,11 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col text-center pt-3 pb-3">
             <h3 className="text-center">Privacy Policy</h3>
-            <Link href="/privacy-policy.html">
-              ICM Privacy Policy
-            </Link>
+            <Link href="/privacy-policy.html">ICM Privacy Policy</Link>
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 col-sm-12 pt-3">
+          <div className="col-md-6 col-sm-12 pt-3 mb-4">
             <h3 className="text-center">Support</h3>
             For support, questions and suggestions: open{' '}
             <a
