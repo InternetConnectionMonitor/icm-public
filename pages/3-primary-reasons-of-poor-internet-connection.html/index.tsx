@@ -74,12 +74,11 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
               <Link href="/">Internet Connection Monitor</Link>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 connection-problems-img-container text-center mx-auto">
               <img
                 src={require('public/img/ICM-top-3-internet-connection-problems.png')}
-                width="768"
                 alt="Top-3 Internet connection problems"
-                className="rounded shadow-sm"
+                className="rounded shadow-sm img-fluid"
               />
             </div>
           </div>
@@ -226,7 +225,7 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
 
               <ol className="mt-4">
                 {routerData.map((router, index) => (
-                  <li className="pb-3" key="index">
+                  <li className="pb-3" key={index}>
                     <a
                       href={router.url}
                       target="_blank"
