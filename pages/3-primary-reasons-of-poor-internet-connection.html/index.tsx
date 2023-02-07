@@ -39,7 +39,7 @@ const routerData = [
 export default function ThreePrimaryReasonsOfPoorInternetConnection() {
   return (
     <MainLayout>
-      <div className="container-fluid">
+      <div className="container">
         <Head>
           <meta
             name="description"
@@ -112,7 +112,8 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
                 <li>Intermittent connection issues</li>
                 <li>Unstable connection speed</li>
                 <li>Video freezes</li>
-                <li>Downloads interruption</li>
+                <li>Web pages load interruption</li>
+                <li>File downloads interruption</li>
                 <li>High ping and packet loss in games</li>
               </ul>
               <p className="badge rounded-pill bg-success">What to do?</p>
@@ -204,12 +205,13 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
               </p>
               <ul>
                 <li>Wi-Fi disconnects periodically</li>
-                <li>Wi-Fi connection becomes worse over time</li>
+                <li>Wi-Fi connection quality becomes worse over time</li>
                 <li>
                   Wi-Fi speed is very low even in a close proximity to the
                   router
                 </li>
                 <li>Downloads interruption</li>
+                <li>The OS says the Wi-Fi connection isn't secure</li>
               </ul>
               <p className="badge rounded-pill bg-success">What to do?</p>
               <ul>

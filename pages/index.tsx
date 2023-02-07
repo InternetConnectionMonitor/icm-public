@@ -302,9 +302,9 @@ export default function Home() {
             measurement during the computer sleep, keep the computer running
             <br />
             <br />
-            <strong>Q:</strong> Can you use it on Microsoft EDGE?
+            <strong>Q:</strong> Can you use it on Microsoft EDGE, Brave or Chromium?
             <br />
-            <strong>A:</strong> Yes, you can
+            <strong>A:</strong> Yes, you can. It works on all Chromium-based browsers
             <br />
             <br />
             <strong>Q:</strong> Is there a Firefox extension?
