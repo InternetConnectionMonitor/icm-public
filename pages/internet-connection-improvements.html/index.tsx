@@ -36,7 +36,14 @@ export default function InternetConnectionImprovements() {
         </Head>
         <div className="row">
           <div className="col text-center pt-4 pb-3">
-            <h1>Improve your Internet connection</h1>
+            <div className="alert alert-primary col-4 col-lg-6 col-md-8 col-sm-12 mx-auto" role="alert">
+              <div className="text-muted fst-italic">
+                This is an old version of the article about connection issues.<br/>
+                Check the new article here — <Link href="/3-primary-reasons-of-poor-internet-connection.html">3 primary reasons of poor Internet connection</Link>
+              </div>
+            </div>
+
+            <h1>Improve your Internet connection (legacy)</h1>
             <div>
               3 root causes of low-quality Internet connection. From the creator
               of <Link href="/">Internet Connection Monitor</Link>

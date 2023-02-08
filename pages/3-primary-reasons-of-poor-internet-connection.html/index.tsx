@@ -89,10 +89,16 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
             <div>
               <h2 className="mt-4">Reason 1: Slow computer or phone</h2>
               <p>
-                Quite often the issues with Internet
-                connection are caused by using a very old computer that
-                cannot handle even basic tasks. The older the computer &ndash;
-                the older are the hardware and the OS. Modern websites and software rely on the latest features available in browsers and software. If the computer is too old, it may not be able to handle the load your perception of the Internet speed will be that it's dramatically slow, however, the actual speed may be fine and it's just the computer which causes everything to last forever. Also, if your PC is a decent machine, check it for viruses and malware.
+                Quite often the issues with Internet connection are caused by
+                using a very old computer that cannot handle even basic tasks.
+                The older the computer &ndash; the older are the hardware and
+                the OS. Modern websites and software rely on the latest features
+                available in browsers and software. If the computer is too old,
+                it may not be able to handle the load your perception of the
+                Internet speed will be that it's dramatically slow, however, the
+                actual speed may be fine and it's just the computer which causes
+                everything to last forever. Also, if your PC is a decent
+                machine, check it for viruses and malware.
               </p>
               <p className="badge rounded-pill bg-warning text-dark">
                 Common issues
@@ -119,8 +125,8 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
                   hardware
                 </li>
                 <li>
-                  Clean it up from garbage and viruses. Google the tutorials
-                  or go to a computer repair shop for assistance
+                  Clean it up from garbage and viruses. Google the tutorials or
+                  go to a computer repair shop for assistance
                 </li>
               </ul>
             </div>
@@ -159,7 +165,11 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
                 <li>Restart router frequently</li>
               </ul>
               <h4 className="mb-3">Top 5 router options to buy in 2023</h4>
-              <p><small className="text-muted">*Click on the links below to check out the actual prices</small></p>
+              <p>
+                <small className="text-muted">
+                  *Click on the links below to check out the actual prices
+                </small>
+              </p>
 
               <ol className="mt-4">
                 {routerData.map((router, index) => (
@@ -236,11 +246,16 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
                     rel="noreferrer"
                   >
                     Internet Connection Monitor (ICM)
-                  </a>. It might be a waste of time, since the support may just
+                  </a>
+                  . It might be a waste of time, since the support may just
                   suggest you some crappy advice like rebooting your computer or
-                  something similar – be ready to dedicate some time for interacting with their crew
+                  something similar – be ready to dedicate some time for
+                  interacting with their crew
                 </li>
-                <li>Change your ISP. You may just pick a more stable service provider and fix the issues</li>
+                <li>
+                  Change your ISP. You may just pick a more stable service
+                  provider and fix the issues
+                </li>
               </ul>
             </div>
           </div>
@@ -249,9 +264,17 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
         <div className="row">
           <div className="col pt-2 pb-4">
             <div>
-              <h2 className="mt-4">Watch the video overview</h2>
+              <h2 className="mt-4">Watch a video overview</h2>
 
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/wvcPyteeSjw" title="3 primary reasons of low-quality Internet connection and how to fix them" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/wvcPyteeSjw"
+                title="3 primary reasons of low-quality Internet connection and how to fix them"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
