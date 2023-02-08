@@ -87,8 +87,104 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
         <div className="row">
           <div className="col pt-2 pb-4">
             <div>
+              <h2 className="mt-4">Reason 1: Slow computer or phone</h2>
+              <p>
+                Quite often the issues with Internet
+                connection are caused by using a very old computer that
+                cannot handle even basic tasks. The older the computer &ndash;
+                the older are the hardware and the OS. Modern websites and software rely on the latest features available in browsers and software. If the computer is too old, it may not be able to handle the load your perception of the Internet speed will be that it's dramatically slow, however, the actual speed may be fine and it's just the computer which causes everything to last forever. Also, if your PC is a decent machine, check it for viruses and malware.
+              </p>
+              <p className="badge rounded-pill bg-warning text-dark">
+                Common issues
+              </p>
+              <ul>
+                <li>Delayed response of the interface in general</li>
+                <li>Frequent system error messages</li>
+                <li>Insufficient memory with system hangs or restarts</li>
+                <li>Video freezes</li>
+                <li>Everything takes forever</li>
+              </ul>
+              <p className="badge rounded-pill bg-success">What to do?</p>
+              <ul>
+                <li>
+                  ⭐️ Buy{' '}
+                  <a
+                    href="https://amzn.to/3rDnz59"
+                    target="_blank"
+                    rel="nofollow noreferrer noopener"
+                  >
+                    a new computer
+                  </a>
+                  . It will be faster, with newer version of OS, software and
+                  hardware
+                </li>
+                <li>
+                  Clean it up from garbage and viruses. Google the tutorials
+                  or go to a computer repair shop for assistance
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="mt-4">Reason 2: Low quality or old router</h2>
+              <p>
+                Apart from a modern computer, your router should not be a $15
+                box of microchips. A lot of issues with Wi-Fi are either related
+                to the low performance of the router's wireless subsystem in
+                crowded areas or the weak signal strength. By crowded I mean
+                when there are multiple routers nearby that interfere with the
+                signal of your own router. You'd want to have a modern router
+                that at least supports Wi-Fi 5. If you're not tech savvy, just
+                pick a decent $100-$150 TP-Link or Asus.
+              </p>
+              <p className="badge rounded-pill bg-warning text-dark">
+                Common issues
+              </p>
+              <ul>
+                <li>Wi-Fi disconnects periodically</li>
+                <li>Wi-Fi connection quality becomes worse over time</li>
+                <li>
+                  Wi-Fi speed is very low even in a close proximity to the
+                  router
+                </li>
+                <li>Downloads interruption</li>
+                <li>The OS says the Wi-Fi connection isn't secure</li>
+              </ul>
+              <p className="badge rounded-pill bg-success">What to do?</p>
+              <ul>
+                <li>⭐️ Buy a new router</li>
+                <li>Upgrade router's firmware</li>
+                <li>Reposition router</li>
+                <li>Adjust Wi-Fi settings such as Wi-Fi channel</li>
+                <li>Restart router frequently</li>
+              </ul>
+              <h4 className="mb-3">Top 5 router options to buy in 2023</h4>
+              <p><small className="text-muted">*Click on the links below to check out the actual prices</small></p>
+
+              <ol className="mt-4">
+                {routerData.map((router, index) => (
+                  <li className="pb-3" key={index}>
+                    <a
+                      href={router.url}
+                      target="_blank"
+                      rel="nofollow noreferrer noopener"
+                    >
+                      <img
+                        src={router.imagePath}
+                        style={{ maxWidth: '128px' }}
+                        className="ms-3 me-3"
+                      />
+                      {router.name}
+                    </a>{' '}
+                    &ndash; {router.price}
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+            <div>
               <h2 className="mt-4">
-                Reason 1: ISP (Internet Service Provider) issue
+                Reason 3: ISP (Internet Service Provider) issue
               </h2>
               <p>
                 The hardest to troubleshoot and the most annoying one. But
@@ -146,102 +242,6 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
                 </li>
                 <li>Change your ISP. You may just pick a more stable service provider and fix the issues</li>
               </ul>
-            </div>
-
-            <div>
-              <h2 className="mt-4">Reason 2: Slow computer or phone</h2>
-              <p>
-                Quite often the issues with Internet
-                connection are caused by using a very old computer that
-                cannot handle even basic tasks. The older the computer &ndash;
-                the older are the hardware and the OS. Modern websites and software rely on the latest features available in browsers and software. If the computer is too old, it may not be able to handle the load your perception of the Internet speed will be that it's dramatically slow, however, the actual speed may be fine and it's just the computer which causes everything to last forever. Also, if your PC is a decent machine, check it for viruses and malware.
-              </p>
-              <p className="badge rounded-pill bg-warning text-dark">
-                Common issues
-              </p>
-              <ul>
-                <li>Delayed response of the interface in general</li>
-                <li>Frequent system error messages</li>
-                <li>Insufficient memory with system hangs or restarts</li>
-                <li>Video freezes</li>
-                <li>Everything takes forever</li>
-              </ul>
-              <p className="badge rounded-pill bg-success">What to do?</p>
-              <ul>
-                <li>
-                  ⭐️ Buy{' '}
-                  <a
-                    href="https://amzn.to/3rDnz59"
-                    target="_blank"
-                    rel="nofollow noreferrer noopener"
-                  >
-                    a new computer
-                  </a>
-                  . It will be faster, with newer version of OS, software and
-                  hardware
-                </li>
-                <li>
-                  Clean it up from garbage and viruses. Google the tutorials
-                  or go to a computer repair shop for assistance
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="mt-4">Reason 3: Low quality or old router</h2>
-              <p>
-                Apart from a modern computer, your router should not be a $15
-                box of microchips. A lot of issues with Wi-Fi are either related
-                to the low performance of the router's wireless subsystem in
-                crowded areas or the weak signal strength. By crowded I mean
-                when there are multiple routers nearby that interfere with the
-                signal of your own router. You'd want to have a modern router
-                that at least supports Wi-Fi 5. If you're not tech savvy, just
-                pick a decent $100-$150 TP-Link or Asus.
-              </p>
-              <p className="badge rounded-pill bg-warning text-dark">
-                Common issues
-              </p>
-              <ul>
-                <li>Wi-Fi disconnects periodically</li>
-                <li>Wi-Fi connection quality becomes worse over time</li>
-                <li>
-                  Wi-Fi speed is very low even in a close proximity to the
-                  router
-                </li>
-                <li>Downloads interruption</li>
-                <li>The OS says the Wi-Fi connection isn't secure</li>
-              </ul>
-              <p className="badge rounded-pill bg-success">What to do?</p>
-              <ul>
-                <li>⭐️ Buy a new router</li>
-                <li>Upgrade router's firmware</li>
-                <li>Reposition router</li>
-                <li>Adjust Wi-Fi settings such as Wi-Fi channel</li>
-                <li>Restart router frequently</li>
-              </ul>
-              <h4 className="mb-3">Top 5 router options to buy in 2023</h4>
-              <p><small className="text-muted">*Click on the links below to check out the actual prices</small></p>
-
-              <ol className="mt-4">
-                {routerData.map((router, index) => (
-                  <li className="pb-3" key={index}>
-                    <a
-                      href={router.url}
-                      target="_blank"
-                      rel="nofollow noreferrer noopener"
-                    >
-                      <img
-                        src={router.imagePath}
-                        style={{ maxWidth: '128px' }}
-                        className="ms-3 me-3"
-                      />
-                      {router.name}
-                    </a>{' '}
-                    &ndash; {router.price}
-                  </li>
-                ))}
-              </ol>
             </div>
           </div>
         </div>
