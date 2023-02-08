@@ -247,6 +247,16 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
         </div>
 
         <div className="row">
+          <div className="col pt-2 pb-4">
+            <div>
+              <h2 className="mt-4">Watch the video overview</h2>
+
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/wvcPyteeSjw" title="3 primary reasons of low-quality Internet connection and how to fix them" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
           <div className="col pt-4 pb-4">
             <h3 className="mt-4">
               Several useful articles that may help you fix the Internet
