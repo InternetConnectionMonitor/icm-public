@@ -6,7 +6,7 @@ import { MadeWithLoveInUkraine, MainLayout, StandWithUkraine } from 'components'
 export default function InternetConnectionImprovements() {
   return (
     <MainLayout>
-      <div className="container-fluid">
+      <div className="container">
         <Head>
           <meta
             name="description"
