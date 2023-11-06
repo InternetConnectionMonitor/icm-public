@@ -1,6 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
+    "semi": [2, "always"],
     "react/no-unescaped-entities": 0
   }
 }

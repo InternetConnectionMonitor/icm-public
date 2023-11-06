@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function DownloadButton() {
   return (
@@ -11,11 +11,15 @@ export default function DownloadButton() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={require('public/img/chrome-logo.png')} height="24" alt="" />
+            <img
+              src={require('public/img/chrome-logo.png')}
+              height="24"
+              alt=""
+            />
             &nbsp;&nbsp;Install ICM for Google Chrome
           </a>
         </div>
       </div>
     </div>
-  )
+  );
 }

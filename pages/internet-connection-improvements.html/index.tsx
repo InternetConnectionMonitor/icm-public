@@ -1,7 +1,11 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
 
-import { MadeWithLoveInUkraine, MainLayout, StandWithUkraine } from 'components'
+import {
+  MadeWithLoveInUkraine,
+  MainLayout,
+  StandWithUkraine,
+} from 'components';
 
 export default function InternetConnectionImprovements() {
   return (
@@ -36,10 +40,17 @@ export default function InternetConnectionImprovements() {
         </Head>
         <div className="row">
           <div className="col text-center pt-4 pb-3">
-            <div className="alert alert-primary col-4 col-lg-6 col-md-8 col-sm-12 mx-auto" role="alert">
+            <div
+              className="alert alert-primary col-4 col-lg-6 col-md-8 col-sm-12 mx-auto"
+              role="alert"
+            >
               <div className="text-muted fst-italic">
-                This is an old version of the article about connection issues.<br/>
-                Check the new article here — <Link href="/3-primary-reasons-of-poor-internet-connection.html">3 primary reasons of poor Internet connection</Link>
+                This is an old version of the article about connection issues.
+                <br />
+                Check the new article here —{' '}
+                <Link href="/3-primary-reasons-of-poor-internet-connection.html">
+                  3 primary reasons of poor Internet connection
+                </Link>
               </div>
             </div>
 
@@ -61,9 +72,9 @@ export default function InternetConnectionImprovements() {
               Yeah, you may think that you have issues with Internet connection
               whereas in reality it's a 10-year old computer that cannot handle
               even basic tasks. The older the computer &ndash; the older are the
-              hardware and the OS. For example, Chrome updates its browser almost
-              daily. They add new features Also, if in addition to that your
-              router is also 10-years old, connection problems are just
+              hardware and the OS. For example, Chrome updates its browser
+              almost daily. They add new features Also, if in addition to that
+              your router is also 10-years old, connection problems are just
               guaranteed.
             </p>
             <p className="badge rounded-pill bg-warning text-dark">
@@ -100,8 +111,8 @@ export default function InternetConnectionImprovements() {
               Internet Service Provider)
             </h2>
             <p>
-              The hardest to troubleshoot and the most annoying one. First of all
-              – you need to check if there are connection dropouts.{' '}
+              The hardest to troubleshoot and the most annoying one. First of
+              all – you need to check if there are connection dropouts.{' '}
               <a
                 href="https://chrome.google.com/webstore/detail/internet-connection-monit/hgccfdagfbilbdbkgmfdmmdfmjjoakfo"
                 target="_blank"
@@ -132,28 +143,29 @@ export default function InternetConnectionImprovements() {
                 >
                   Internet Connection Monitor (ICM)
                 </a>{' '}
-                or similar software on your laptop close to the router to diagnose
-                the connection drops and ensure it's actually a provider issue
+                or similar software on your laptop close to the router to
+                diagnose the connection drops and ensure it's actually a
+                provider issue
               </li>
               <li>
                 ⭐️ Ask your provider support crew to help with the connection
-                stability, providing them a log of disconnects that can be logged
-                by ICM. It may be a waste of time, since the support may just
-                suggest you some crappy advice like rebooting your computer or
-                something similar
+                stability, providing them a log of disconnects that can be
+                logged by ICM. It may be a waste of time, since the support may
+                just suggest you some crappy advice like rebooting your computer
+                or something similar
               </li>
               <li>Change your ISP</li>
             </ul>
             <h2 className="mt-4">Reason 3: Low quality router</h2>
             <p>
-              Apart from a modern computer, your router should not be a $15 box of
-              microchips. A lot of issues with Wi-Fi are either related to the low
-              performance of the router's wireless subsystem in crowded areas or
-              the weak signal strength. By crowded I mean when there are multiple
-              routers nearby that interfere with the signal of your own router.
-              You'd want to have a modern router that at least supports Wi-Fi 5.
-              If you're not tech savvy, just pick a decent $100-$150 TP-Link or
-              Asus.
+              Apart from a modern computer, your router should not be a $15 box
+              of microchips. A lot of issues with Wi-Fi are either related to
+              the low performance of the router's wireless subsystem in crowded
+              areas or the weak signal strength. By crowded I mean when there
+              are multiple routers nearby that interfere with the signal of your
+              own router. You'd want to have a modern router that at least
+              supports Wi-Fi 5. If you're not tech savvy, just pick a decent
+              $100-$150 TP-Link or Asus.
             </p>
             <p className="badge rounded-pill bg-warning text-dark">
               Router &ndash; Common issues
@@ -305,5 +317,5 @@ export default function InternetConnectionImprovements() {
         <MadeWithLoveInUkraine />
       </div>
     </MainLayout>
-  )
+  );
 }

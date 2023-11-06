@@ -1,8 +1,13 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-import { DownloadButton, MadeWithLoveInUkraine, MainLayout, StandWithUkraine } from 'components'
+import Link from 'next/link';
+import {
+  DownloadButton,
+  MadeWithLoveInUkraine,
+  MainLayout,
+  StandWithUkraine,
+} from 'components';
 
 export default function Home() {
   return (
@@ -155,9 +160,12 @@ export default function Home() {
                       <h5 className="card-title">Vas Gk</h5>
                       <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
                       <p className="card-text">
-                        <i>Great tool. We have a main router that reaches 100% cpu
-                        load during the day and this tool is great for logging
-                        the number of disconnects and the duration of them</i>
+                        <i>
+                          Great tool. We have a main router that reaches 100%
+                          cpu load during the day and this tool is great for
+                          logging the number of disconnects and the duration of
+                          them
+                        </i>
                       </p>
                     </div>
                   </div>
@@ -168,13 +176,15 @@ export default function Home() {
                       <h5 className="card-title">Mike Stember</h5>
                       <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
                       <p className="card-text">
-                        <i>Thanks for your help in revealing, objectively, how bad
-                        my ISP is. The graphics in the statistics are clear to
-                        understand. Somewhere recently the connection log added
-                        a third column show the duration of the status. That was
-                        a nice upgrade as I used to export the data and drop it
-                        in a spread sheet to calculate the duration. Now the
-                        data can be used as is.</i>
+                        <i>
+                          Thanks for your help in revealing, objectively, how
+                          bad my ISP is. The graphics in the statistics are
+                          clear to understand. Somewhere recently the connection
+                          log added a third column show the duration of the
+                          status. That was a nice upgrade as I used to export
+                          the data and drop it in a spread sheet to calculate
+                          the duration. Now the data can be used as is.
+                        </i>
                       </p>
                     </div>
                   </div>
@@ -185,11 +195,13 @@ export default function Home() {
                       <h5 className="card-title">Darien Young</h5>
                       <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
                       <p className="card-text">
-                        <i>Works great so far. Thanks a lot. Very helpful. Lost
-                        internet connection several times while writing this
-                        short review alone! Haha. The sound indicator is a very
-                        helpful feature. Nice UI design as well with good
-                        options and not confusing in any way. Well done.</i>
+                        <i>
+                          Works great so far. Thanks a lot. Very helpful. Lost
+                          internet connection several times while writing this
+                          short review alone! Haha. The sound indicator is a
+                          very helpful feature. Nice UI design as well with good
+                          options and not confusing in any way. Well done.
+                        </i>
                       </p>
                     </div>
                   </div>
@@ -302,9 +314,11 @@ export default function Home() {
             measurement during the computer sleep, keep the computer running
             <br />
             <br />
-            <strong>Q:</strong> Can you use it on Microsoft EDGE, Brave or Chromium?
+            <strong>Q:</strong> Can you use it on Microsoft EDGE, Brave or
+            Chromium?
             <br />
-            <strong>A:</strong> Yes, you can. It works on all Chromium-based browsers
+            <strong>A:</strong> Yes, you can. It works on all Chromium-based
+            browsers
             <br />
             <br />
             <strong>Q:</strong> Is there a Firefox extension?
@@ -375,5 +389,5 @@ export default function Home() {
         <MadeWithLoveInUkraine />
       </div>
     </MainLayout>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import Script from 'next/script'
+import Script from 'next/script';
 
 type Props = {
-  id: string
-}
+  id: string;
+};
 
 export default function GoogleAnalytics({ id }: Props) {
   return (
@@ -21,5 +21,5 @@ export default function GoogleAnalytics({ id }: Props) {
         `}
       </Script>
     </>
-  )
+  );
 }

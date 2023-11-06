@@ -1,40 +1,44 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
 
-import { MadeWithLoveInUkraine, MainLayout, StandWithUkraine } from 'components'
+import {
+  MadeWithLoveInUkraine,
+  MainLayout,
+  StandWithUkraine,
+} from 'components';
 
 const routerData = [
   {
     name: 'ASUS AX5700 Wi-Fi 6 Gaming Router (RT-AX86U)',
     url: 'https://amzn.to/3rGuo5R',
     imagePath: 'img/router-asus.webp',
-    price: '$249.99'
+    price: '$249.99',
   },
   {
     name: 'TP-Link AX5400 Wi-Fi 6 Router (Archer AX73)',
     url: 'https://amzn.to/3SIueGW',
     imagePath: 'img/router-ax73.jpg',
-    price: '$154.99'
+    price: '$154.99',
   },
   {
     name: 'TP-Link AX1800 Wi-Fi 6 Router',
     url: 'https://amzn.to/3CFH1V8',
     imagePath: 'img/router-ax1800.jpg',
-    price: '$79.99'
+    price: '$79.99',
   },
   {
     name: 'Google Nest Wi-Fi Router',
     url: 'https://amzn.to/3Z6DQPB',
     imagePath: 'img/router-google.jpg',
-    price: '$74.99'
+    price: '$74.99',
   },
   {
     name: 'TP-Link AX1500 Wi-Fi 6 Router',
     url: 'https://amzn.to/3T9LOng',
     imagePath: 'img/router-ax1500.jpg',
-    price: '$66.98'
-  }
-]
+    price: '$66.98',
+  },
+];
 
 export default function ThreePrimaryReasonsOfPoorInternetConnection() {
   return (
@@ -318,5 +322,5 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
         <MadeWithLoveInUkraine />
       </div>
     </MainLayout>
-  )
+  );
 }

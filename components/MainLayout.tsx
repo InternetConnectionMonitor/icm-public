@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { NextPage } from 'next'
-import Link from 'next/link'
+import * as React from 'react';
+import { NextPage } from 'next';
+import Link from 'next/link';
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const MainLayout: NextPage<Props> = ({ children }) => {
@@ -62,7 +62,7 @@ const MainLayout: NextPage<Props> = ({ children }) => {
 
       <div>{children}</div>
     </div>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;
