@@ -4,10 +4,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect } from 'react';
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
+import { Raleway } from 'next/font/google';
 
 import { GoogleAnalytics } from 'components';
 
 const env = process.env.NODE_ENV;
+const customFont = Raleway({ subsets: ['latin'] });
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -24,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <>
+    <main className={customFont.className}>
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta charSet="utf-8" />
@@ -66,6 +68,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
 
       {env === 'production' ? <GoogleAnalytics id="G-865Y8ZL7M0" /> : null}
-    </>
+    </main>
   );
 }

@@ -15,9 +15,9 @@ export default function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col text-center pt-4 pb-3">
-            <h1>Internet Connection Monitor (ICM)</h1>
+            <h1>Internet Connection Monitor</h1>
             <div>
-              Google Chrome extension for monitoring Internet connectivity
+              ICM is a Google Chrome extension for monitoring Internet connectivity
             </div>
           </div>
         </div>

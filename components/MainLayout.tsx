@@ -18,7 +18,7 @@ const MainLayout: NextPage<Props> = ({ children }) => {
               alt=""
             />
             &nbsp;
-            <span>ICM</span>
+            <span>Internet Connection Monitor</span>
           </Link>
           <button
             className="navbar-toggler"
@@ -49,8 +49,8 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                       className="btn btn-primary"
                       href="https://chrome.google.com/webstore/detail/internet-connection-monit/hgccfdagfbilbdbkgmfdmmdfmjjoakfo"
                     >
-                      {/* <img src={require('public/img/chrome-logo.png')} height="24" alt="" /> */}
-                      Install
+                      <img src={require('public/img/chrome-logo.png')} height="24" alt="" />
+                      &nbsp;&nbsp;Install ICM
                     </Link>
                   </form>
                 </li>
