@@ -32,6 +32,6 @@
     "typescript": "^5"
   },
   "devDependencies": {
-    "@types/bootstrap": "5.3.2"
+    "@types/bootstrap": "5.2.9"
   }
 }

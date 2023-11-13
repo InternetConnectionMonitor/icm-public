@@ -188,7 +188,7 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/bootstrap@5.3.2":
+"@types/bootstrap@5.2.9":
   version "5.2.9"
   resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-5.2.9.tgz#5040df5d8d12cb9fb6268a33b8d87234af15e09a"
   integrity sha512-Fcg4nORBKaVUAG4F0ePWcatWQVfr3NAT9XIN+hl1PaiAwb4tq55+iua9R3exsbB3yyfhyQlHYg2foTlW86J+RA==
