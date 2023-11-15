@@ -7,7 +7,7 @@ import {
   MadeWithLoveInUkraine,
   MainLayout,
   StandWithUkraine,
-} from 'components';
+} from '@/components';
 
 export default function Home() {
   return (

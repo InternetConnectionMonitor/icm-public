@@ -5,7 +5,7 @@ import {
   MadeWithLoveInUkraine,
   MainLayout,
   StandWithUkraine,
-} from 'components';
+} from '@/components';
 
 const routerData = [
   {

@@ -6,7 +6,7 @@ import Head from 'next/head';
 import type { AppProps } from 'next/app';
 import { Raleway } from 'next/font/google';
 
-import { GoogleAnalytics } from 'components';
+import { GoogleAnalytics } from '@/components';
 
 const env = process.env.NODE_ENV;
 const customFont = Raleway({ subsets: ['latin'] });
