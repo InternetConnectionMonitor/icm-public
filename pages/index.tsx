@@ -17,7 +17,8 @@ export default function Home() {
           <div className="col text-center pt-4 pb-3">
             <h1>Internet Connection Monitor</h1>
             <div>
-              ICM is a Google Chrome extension for monitoring Internet connectivity
+              ICM is a Google Chrome extension for monitoring Internet
+              connectivity
             </div>
           </div>
         </div>
@@ -54,15 +55,15 @@ export default function Home() {
               <li>Disconnects, availability and downtime stats</li>
               <li>Play sound when connection goes online or offline</li>
               <li>Events log with CSV export</li>
-              <li>Statistics with realtime monitoring</li>
-              <li>Retina-ready icon sets</li>
+              <li>Realtime connectivity and latency monitoring</li>
               <li>Light and dark themes support</li>
             </ul>
-            <h5 className="text-center">🚀 NEW IN ICM v4.0</h5>
+            <h5 className="text-center">🚀 NEW IN ICM v5.0</h5>
             <ul>
-              <li>Added Downtime stats</li>
-              <li>Added Statistics page with realtime monitoring</li>
-              <li>Added Status duration to the logging</li>
+              <li>Realtime connectivity and latency monitoring</li>
+              <li>Main popup opens up faster</li>
+              <li>A couple of bugs fixed</li>
+              <li>Google's manifest v3 compliance</li>
             </ul>
             <h5 className="text-center mb-3">📷 SCREENSHOTS</h5>
             <div
@@ -311,7 +312,10 @@ export default function Home() {
             tracking the disconnects while the computer is in sleep has not been
             thoroughly tested. Macs, for example, wake up every couple minutes
             and ICM checks the connection. But do not rely on precise
-            measurement during the computer sleep, keep the computer running
+            measurement during the computer sleep, keep the computer running.
+            <br />
+            Alternatively, use <strong>Connection monitor</strong> inside ICM to
+            check what's going on. Access it via main extension popup
             <br />
             <br />
             <strong>Q:</strong> Can you use it on Microsoft EDGE, Brave or
@@ -324,7 +328,12 @@ export default function Home() {
             <strong>Q:</strong> Is there a Firefox extension?
             <br />
             <strong>A:</strong> Currently, only Google Chrome and Microsoft Edge
-            are supported
+            are supported. There is{' '}
+            <Link href="https://github.com/InternetConnectionMonitor/icm-public/issues/29">
+              a feature request
+            </Link>{' '}
+            to implement a Firefox version. Vote for it if you want to speed up
+            the development
             <br />
             <br />
             <strong>Q:</strong> Can you give an advice on how to improve
@@ -355,7 +364,7 @@ export default function Home() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col text-center pt-3 pb-3">
+          <div className="col text-center pt-5 pb-3">
             <h3 className="text-center">Privacy Policy</h3>
             <Link href="/privacy-policy.html">ICM Privacy Policy</Link>
           </div>

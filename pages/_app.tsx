@@ -35,23 +35,23 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta
           name="description"
-          content="Internet Connection Monitor — Google Chrome extension for monitoring and testing Internet connectivity. Access log and send to your ISP"
+          content="Internet Connection Monitor — Google Chrome extension for monitoring and testing Internet connectivity. Record connection log and send to your ISP"
         />
         <meta
           name="keywords"
           content="internet,chrome extension,connection,connectivity,test,icm,internet connection monitor,log,logging,monitoring,interruptions,internet down,latency,ping,wi-fi,wi fi"
         />
-        <meta name="author" content="Dmytro Shcherbyna" />
+        <meta name="author" content="Internet Connection Monitor" />
 
-        <title>Internet Connection Monitor — official web page</title>
+        <title>Internet connection monitoring and downtime statistics | ICM</title>
 
         <meta
           property="og:title"
-          content="Internet Connection Monitor — official web page"
+          content="Internet connection monitoring and downtime statistics | ICM"
         />
         <meta
           property="og:description"
-          content="Internet Connection Monitor — Google Chrome extension for monitoring and testing Internet connectivity. Access log and send to your ISP"
+          content="Internet Connection Monitor — Google Chrome extension for monitoring and testing Internet connectivity. Record connection log and send to your ISP"
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Internet Connection Monitor" />
