@@ -372,25 +372,28 @@ export default function Home() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-6 col-sm-12 pt-3 mb-4">
+          <div className="col-md-6 col-sm-12 pt-4 mb-4">
             <h3 className="text-center">Support</h3>
-            For support, questions and suggestions: open{' '}
-            <a
-              href="https://chrome.google.com/webstore/detail/internet-connection-monit/hgccfdagfbilbdbkgmfdmmdfmjjoakfo"
-              rel="noopener noreferrer"
-            >
-              extension's page in Chrome store
-            </a>{' '}
-            and then click on the <strong>Support</strong> tab
-            <br />
-            <br />
-            Alternatively, for suggestions, ideas and feature requests: go to{' '}
-            <a
-              href="https://github.com/InternetConnectionMonitor/icm-public/issues"
-              rel="noopener noreferrer"
-            >
-              ICM issues page on GitHub
-            </a>
+            <ul>
+              <li className="pb-1">
+                For support and questions:{' '}
+                <a
+                  href="https://chromewebstore.google.com/detail/hgccfdagfbilbdbkgmfdmmdfmjjoakfo/support"
+                  rel="noopener noreferrer"
+                >
+                  extension's support page in Chrome store
+                </a>
+              </li>
+              <li>
+                For bug reports and feature requests:{' '}
+                <a
+                  href="https://github.com/InternetConnectionMonitor/icm-public/issues"
+                  rel="noopener noreferrer"
+                >
+                  ICM issues page on GitHub
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

@@ -3,7 +3,7 @@ import React from 'react';
 export default function Donate() {
   return (
     <div className="row">
-      <div className="col text-center pt-4 pb-3">
+      <div className="col text-center pt-2 pb-4">
         <h3 className="text-center mb-4">Donate</h3>
 
         <a
