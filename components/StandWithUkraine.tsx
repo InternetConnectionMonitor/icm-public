@@ -12,7 +12,7 @@ export default function StandWithUkraine() {
         >
           <img
             src={require('public/img/ukraine.png')}
-            width="192"
+            width="164"
             alt="Stand with Ukraine!"
           />
         </a>

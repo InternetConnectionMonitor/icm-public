@@ -8,6 +8,7 @@ import {
   MainLayout,
   StandWithUkraine,
 } from '@/components';
+import Donate from '@/components/Donate';
 
 export default function Home() {
   return (
@@ -58,7 +59,7 @@ export default function Home() {
               <li>Realtime connectivity and latency monitoring</li>
               <li>Light and dark themes support</li>
             </ul>
-            <h5 className="text-center">🚀 NEW IN ICM v5.0</h5>
+            <h5 className="text-center">🚀 NEW IN ICM v5</h5>
             <ul>
               <li>Realtime connectivity and latency monitoring</li>
               <li>Main popup opens up faster</li>
@@ -327,8 +328,9 @@ export default function Home() {
             <br />
             <strong>Q:</strong> Is there a Firefox extension?
             <br />
-            <strong>A:</strong> Currently, only Google Chrome and Microsoft Edge
-            are supported. There is{' '}
+            <strong>A:</strong> Currently, only Chromium-based browsers are
+            supported (Google Chrome, Brave, Microsoft EDGE, etc) are supported.
+            There is{' '}
             <Link href="https://github.com/InternetConnectionMonitor/icm-public/issues/29">
               a feature request
             </Link>{' '}
@@ -392,9 +394,11 @@ export default function Home() {
           </div>
         </div>
 
-        <DownloadButton />
+        {/* <DownloadButton /> */}
 
-        <StandWithUkraine />
+        <Donate />
+
+        {/* <StandWithUkraine /> */}
         <MadeWithLoveInUkraine />
       </div>
     </MainLayout>
