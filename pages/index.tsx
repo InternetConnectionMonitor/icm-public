@@ -50,8 +50,8 @@ export default function Home() {
               </li>
               <li>Latency measurement</li>
               <li>
-                Detect when Internet doesn't work over operating Wi-Fi or
-                Ethernet
+                Detect when Internet doesn't work even with operating LAN
+                connection (Wi-Fi or Ethernet)
               </li>
               <li>Disconnects, availability and downtime stats</li>
               <li>Play sound when connection goes online or offline</li>
@@ -254,14 +254,14 @@ export default function Home() {
               <li>
                 <strong>🟠 Connection issues:</strong> if Chrome itself cannot
                 properly determine whether Internet connection is down while
-                you're connected to Wi-Fi/Ethernet - this status will popup.
-                Most likely, your Wi-Fi/Ethernet cable is connected, but there
-                is no Internet connection behind it. In most cases, it is
+                you're connected to LAN (Wi-Fi/Ethernet) - this status will
+                popup. Most likely, your LAN (Wi-Fi/Ethernet) is connected, but
+                there is no Internet connection behind it. In most cases, it is
                 ISP/provider issue
               </li>
               <li>
-                <strong>🔴 Offline:</strong> Internet disconnected.
-                Wi-Fi/Ethernet may work or not, but Internet itself is
+                <strong>🔴 Offline:</strong> Internet disconnected. LAN
+                (Wi-Fi/Ethernet) may work or not, but Internet itself is
                 unavailable
               </li>
             </ul>
