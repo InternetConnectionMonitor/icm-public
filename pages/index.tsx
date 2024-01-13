@@ -18,7 +18,7 @@ export default function Home() {
           <div className="col text-center pt-4 pb-3">
             <h1>Internet Connection Monitor</h1>
             <div>
-              ICM is a Google Chrome extension for monitoring Internet
+              ICM is a <strong>free</strong> Google Chrome extension for monitoring Internet
               connectivity
             </div>
           </div>
@@ -67,7 +67,6 @@ export default function Home() {
               <li>Realtime connectivity and latency monitoring</li>
               <li>Main popup opens up faster</li>
               <li>A couple of bugs fixed</li>
-              <li>Google's manifest v3 compliance</li>
             </ul>
             <h5 className="text-center mb-3">📷 SCREENSHOTS</h5>
             <div
@@ -109,40 +108,40 @@ export default function Home() {
                   aria-label="Screenshot 5"
                 ></button>
               </div>
-              <div className="carousel-inner">
+              <div className="carousel-inner shadow rounded">
                 <div className="carousel-item active">
                   <img
-                    src={require('public/img/internet-connection-monitor-online.jpg')}
+                    src={require('public/img/internet-connection-monitor-screen1.png')}
                     className="d-block w-100"
-                    alt="Online"
+                    alt="Internet Connection Monitor interface"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={require('public/img/internet-connection-monitor-offline.jpg')}
+                    src={require('public/img/internet-connection-monitor-screen2.png')}
                     className="d-block w-100"
-                    alt="Offline"
+                    alt="Internet Connection Promo 2"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={require('public/img/internet-connection-monitor-settings.jpg')}
+                    src={require('public/img/internet-connection-monitor-screen3.png')}
                     className="d-block w-100"
-                    alt="Settings"
+                    alt="Internet Connection Realtime Monitor"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={require('public/img/internet-connection-monitor-log.jpg')}
+                    src={require('public/img/internet-connection-monitor-screen4.png')}
                     className="d-block w-100"
-                    alt="Log"
+                    alt="Internet Connection Log"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src={require('public/img/internet-connection-monitor-statistics.jpg')}
+                    src={require('public/img/internet-connection-monitor-screen5.png')}
                     className="d-block w-100"
-                    alt="Statistics"
+                    alt="Internet Connection Statistics"
                   />
                 </div>
               </div>
