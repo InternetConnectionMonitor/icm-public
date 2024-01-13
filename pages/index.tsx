@@ -27,14 +27,17 @@ export default function Home() {
         <DownloadButton />
 
         <div className="row">
-          <div className="col text-center pb-4">
+          <div className="col text-center pb-5">
             <img
-              src={require('public/img/ICM-internet-connection-monitor-ui.jpg')}
-              width="288"
-              alt="Google Chrome extension for monitoring Internet connectivity and latency"
+              src={require('public/img/ICM-internet-connection-monitor-ui.png')}
+              width="258"
+              alt="ICM — Google Chrome extension for monitoring Internet connectivity and latency"
+              className="shadow"
+              style={{ border: '1px solid #eee' }}
             />
           </div>
         </div>
+
         <div className="row justify-content-center">
           <div className="col-md-6 col-sm-12">
             <h5 className="text-center">🎯 ICM IS THE BEST FOR</h5>
@@ -240,6 +243,7 @@ export default function Home() {
             <img
               src={require('public/img/activate-internet-connection-monitor-extension.png')}
               style={{ width: '100%', maxWidth: '418px' }}
+              alt="Where to find ICM extension icon"
             />
             <br />
             <br />
@@ -314,8 +318,7 @@ export default function Home() {
             thoroughly tested. Macs, for example, wake up every couple minutes
             and ICM checks the connection. But do not rely on precise
             measurement during the computer sleep, keep the computer running.
-            <br />
-            Alternatively, use <strong>Connection monitor</strong> inside ICM to
+            Alternatively, use <strong>Realtime monitor</strong> inside ICM to
             check what's going on. Access it via main extension popup
             <br />
             <br />
@@ -354,14 +357,6 @@ export default function Home() {
               rel="noopener noreferrer nofollow"
             >
               svgrepo.com
-            </a>{' '}
-            and{' '}
-            <a
-              href="https://flaticon.com"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
-              flaticon.com
             </a>
           </div>
         </div>
