@@ -230,7 +230,7 @@ export default function Home() {
           </div>
         </div>
         <div className="row justify-content-center pt-5" id="faq">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 pt-2">
             <h3 className="text-center">FAQ</h3>
             <strong>Q:</strong> Where is the extension icon?
             <br />

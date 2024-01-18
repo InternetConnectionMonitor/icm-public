@@ -37,9 +37,9 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                 <li className="nav-item pe-2">
                   <Link
                     className="nav-link"
-                    href="/3-primary-reasons-of-poor-internet-connection.html"
+                    href="#faq"
                   >
-                    How to improve Internet connection
+                    FAQ
                   </Link>
                 </li>
                 <li className="nav-item pe-3">
