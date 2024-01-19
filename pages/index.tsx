@@ -67,6 +67,7 @@ export default function Home() {
               <li>Realtime connectivity and latency monitoring</li>
               <li>Main popup opens up faster</li>
               <li>A couple of bugs fixed</li>
+              <li>UI is like it was designed by Jony Ive</li>
             </ul>
             <h5 className="text-center mb-3">📷 SCREENSHOTS</h5>
             <div
