@@ -372,21 +372,27 @@ export default function Home() {
             <ul>
               <li className="pb-1">
                 For support and questions:{' '}
-                <a
+                <Link
                   href="https://chromewebstore.google.com/detail/hgccfdagfbilbdbkgmfdmmdfmjjoakfo/support"
-                  rel="noopener noreferrer"
                 >
                   extension's support page in Chrome store
-                </a>
+                </Link>
               </li>
               <li>
                 For bug reports and feature requests:{' '}
-                <a
+                <Link
                   href="https://github.com/InternetConnectionMonitor/icm-public/issues"
-                  rel="noopener noreferrer"
                 >
                   ICM issues page on GitHub
-                </a>
+                </Link>
+              </li>
+              <li>
+                For updates and news:{' '}
+                <Link
+                  href="https://twitter.com/icm_hq"
+                >
+                  Follow ICM on Twitter
+                </Link>
               </li>
             </ul>
           </div>

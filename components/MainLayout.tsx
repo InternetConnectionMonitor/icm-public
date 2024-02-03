@@ -37,12 +37,12 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                 <li className="nav-item pe-2">
                   <Link
                     className="nav-link"
-                    href="#faq"
+                    href="https://twitter.com/icm_hq"
                   >
-                    FAQ
+                    Twitter
                   </Link>
                 </li>
-                <li className="nav-item pe-3">
+                <li className="nav-item pe-2">
                   <Link
                     className="nav-link"
                     href="https://www.patreon.com/internetconnectionmonitor/membership"
@@ -50,6 +50,14 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                     rel="noreferrer"
                   >
                     Donate
+                  </Link>
+                </li>
+                <li className="nav-item pe-3">
+                  <Link
+                    className="nav-link"
+                    href="#faq"
+                  >
+                    FAQ
                   </Link>
                 </li>
                 <li className="nav-item">
