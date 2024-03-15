@@ -42,7 +42,7 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                     Twitter
                   </Link>
                 </li>
-                <li className="nav-item pe-2">
+                {/* <li className="nav-item pe-2">
                   <Link
                     className="nav-link"
                     href="https://www.patreon.com/internetconnectionmonitor/membership"
@@ -51,7 +51,7 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                   >
                     Donate
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item pe-3">
                   <Link
                     className="nav-link"

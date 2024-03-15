@@ -400,7 +400,7 @@ export default function Home() {
 
         {/* <DownloadButton /> */}
 
-        <Donate />
+        {/* <Donate /> */}
 
         {/* <StandWithUkraine /> */}
         <MadeWithLoveInUkraine />
