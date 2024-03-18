@@ -313,7 +313,7 @@ export default function InternetConnectionImprovements() {
           </div>
         </div> */}
 
-        <StandWithUkraine />
+        {/* <StandWithUkraine /> */}
         <MadeWithLoveInUkraine />
       </div>
     </MainLayout>

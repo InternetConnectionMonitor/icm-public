@@ -72,13 +72,13 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
 
         <div className="row">
           <div className="col text-center pt-4 pb-3">
-            <h1>3 reasons of low-quality Internet connection</h1>
+            <h1 className="pt-3 pb-1">3 reasons of low-quality Internet connection</h1>
             <div>
               And how to fix them. From the creator of{' '}
               <Link href="/">Internet Connection Monitor</Link>
             </div>
 
-            <div className="pt-4 connection-problems-img-container text-center mx-auto">
+            <div className="pt-5 connection-problems-img-container text-center mx-auto">
               <img
                 src={require('public/img/ICM-top-3-internet-connection-problems.png')}
                 alt="Top-3 Internet connection problems"
@@ -168,7 +168,7 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
                 <li>Adjust Wi-Fi settings such as Wi-Fi channel</li>
                 <li>Restart router frequently</li>
               </ul>
-              <h4 className="mb-3">Top 5 router options to buy in 2023</h4>
+              <h4 className="mb-3">Top 5 router options to buy in 2024</h4>
               <p>
                 <small className="text-muted">
                   *Click on the links below to check out the actual prices
@@ -318,7 +318,7 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
           </div>
         </div>
 
-        <StandWithUkraine />
+        {/* <StandWithUkraine /> */}
         <MadeWithLoveInUkraine />
       </div>
     </MainLayout>
