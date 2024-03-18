@@ -18,8 +18,8 @@ export default function Home() {
           <div className="col text-center pt-4 pb-3">
             <h1 className="pt-3 pb-1">Internet Connection Monitor</h1>
             <div>
-              ICM is a <strong>free</strong> Google Chrome extension for monitoring Internet
-              connectivity
+              ICM is a <strong>free</strong> Google Chrome extension for
+              monitoring Internet connectivity
             </div>
           </div>
         </div>
@@ -230,6 +230,24 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        <div className="row justify-content-center pt-5" id="how-to-use">
+          <div className="col-md-6 col-sm-12 pt-2 text-center">
+            <h3 className="text-center mb-5">How to use ICM</h3>
+
+            <iframe
+              width="672"
+              height="378"
+              src="https://www.youtube.com/embed/vfY5zOcSqGM"
+              title="How to use ICM - YouTube video"
+              // @ts-ignore
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
         <div className="row justify-content-center pt-5" id="faq">
           <div className="col-md-6 col-sm-12 pt-2">
             <h3 className="text-center">FAQ</h3>
@@ -372,25 +390,19 @@ export default function Home() {
             <ul>
               <li className="pb-1">
                 For support and questions:{' '}
-                <Link
-                  href="https://chromewebstore.google.com/detail/hgccfdagfbilbdbkgmfdmmdfmjjoakfo/support"
-                >
+                <Link href="https://chromewebstore.google.com/detail/hgccfdagfbilbdbkgmfdmmdfmjjoakfo/support">
                   extension's support page in Chrome store
                 </Link>
               </li>
               <li>
                 For bug reports and feature requests:{' '}
-                <Link
-                  href="https://github.com/InternetConnectionMonitor/icm-public/issues"
-                >
+                <Link href="https://github.com/InternetConnectionMonitor/icm-public/issues">
                   ICM issues page on GitHub
                 </Link>
               </li>
               <li>
                 For updates and news:{' '}
-                <Link
-                  href="https://twitter.com/icm_hq"
-                >
+                <Link href="https://twitter.com/icm_hq">
                   Follow ICM on Twitter
                 </Link>
               </li>

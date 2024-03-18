@@ -60,6 +60,14 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                     FAQ
                   </Link>
                 </li>
+                <li className="nav-item pe-3">
+                  <Link
+                    className="nav-link"
+                    href="#how-to-use"
+                  >
+                    How to use
+                  </Link>
+                </li>
                 <li className="nav-item">
                   <form>
                     {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
