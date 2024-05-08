@@ -1,13 +1,11 @@
-import StandWithUkraine from './StandWithUkraine';
 import GoogleAnalytics from './GoogleAnalytics';
-import MadeWithLoveInUkraine from './MadeWithLoveInUkraine';
+import MadeWithLove from './MadeWithLove';
 import DownloadButton from './DownloadButton';
 import MainLayout from './MainLayout';
 
 export {
-  StandWithUkraine,
   GoogleAnalytics,
-  MadeWithLoveInUkraine,
+  MadeWithLove,
   DownloadButton,
   MainLayout,
 };

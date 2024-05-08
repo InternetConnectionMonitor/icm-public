@@ -2,12 +2,7 @@
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import {
-  DownloadButton,
-  MadeWithLoveInUkraine,
-  MainLayout,
-  StandWithUkraine,
-} from '@/components';
+import { DownloadButton, MadeWithLove, MainLayout } from '@/components';
 import Donate from '@/components/Donate';
 
 export default function Home() {
@@ -18,8 +13,7 @@ export default function Home() {
           <div className="col text-center pt-4 pb-3">
             <h1 className="pt-3 pb-1">Internet Connection Monitor</h1>
             <div>
-              ICM is a <strong>free</strong> Google Chrome extension for
-              monitoring Internet connectivity
+              ICM is a <strong>free</strong> Google Chrome extension for monitoring Internet connectivity
             </div>
           </div>
         </div>
@@ -48,17 +42,12 @@ export default function Home() {
             </ul>
             <h5 className="text-center">💻 FEATURES</h5>
             <ul>
-              <li>
-                Precise connectivity test with configurable testing interval
-              </li>
+              <li>Precise connectivity test with configurable testing interval</li>
               <li>Latency measurement</li>
-              <li>
-                Detect when Internet doesn't work even with operating LAN
-                connection (Wi-Fi or Ethernet)
-              </li>
+              <li>Detect when Internet doesn't work even with operating LAN connection (Wi-Fi or Ethernet)</li>
               <li>Disconnects, availability and downtime stats</li>
               <li>Play sound when connection goes online or offline</li>
-              <li>Events log with CSV export</li>
+              <li>Events log with CSV and PDF export</li>
               <li>Realtime connectivity and latency monitoring</li>
               <li>Light and dark themes support</li>
             </ul>
@@ -70,11 +59,7 @@ export default function Home() {
               <li>UI is like it was designed by Jony Ive</li>
             </ul>
             <h5 className="text-center mb-3">📷 SCREENSHOTS</h5>
-            <div
-              id="carouselExampleIndicators"
-              className="carousel carousel-dark slide mb-5"
-              data-bs-ride="carousel"
-            >
+            <div id="carouselExampleIndicators" className="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
               <div className="carousel-indicators">
                 <button
                   type="button"
@@ -166,10 +151,8 @@ export default function Home() {
                       <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
                       <p className="card-text">
                         <i>
-                          Great tool. We have a main router that reaches 100%
-                          cpu load during the day and this tool is great for
-                          logging the number of disconnects and the duration of
-                          them
+                          Great tool. We have a main router that reaches 100% cpu load during the day and this tool is
+                          great for logging the number of disconnects and the duration of them
                         </i>
                       </p>
                     </div>
@@ -182,13 +165,10 @@ export default function Home() {
                       <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
                       <p className="card-text">
                         <i>
-                          Thanks for your help in revealing, objectively, how
-                          bad my ISP is. The graphics in the statistics are
-                          clear to understand. Somewhere recently the connection
-                          log added a third column show the duration of the
-                          status. That was a nice upgrade as I used to export
-                          the data and drop it in a spread sheet to calculate
-                          the duration. Now the data can be used as is.
+                          Thanks for your help in revealing, objectively, how bad my ISP is. The graphics in the
+                          statistics are clear to understand. Somewhere recently the connection log added a third column
+                          show the duration of the status. That was a nice upgrade as I used to export the data and drop
+                          it in a spread sheet to calculate the duration. Now the data can be used as is.
                         </i>
                       </p>
                     </div>
@@ -201,11 +181,9 @@ export default function Home() {
                       <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
                       <p className="card-text">
                         <i>
-                          Works great so far. Thanks a lot. Very helpful. Lost
-                          internet connection several times while writing this
-                          short review alone! Haha. The sound indicator is a
-                          very helpful feature. Nice UI design as well with good
-                          options and not confusing in any way. Well done.
+                          Works great so far. Thanks a lot. Very helpful. Lost internet connection several times while
+                          writing this short review alone! Haha. The sound indicator is a very helpful feature. Nice UI
+                          design as well with good options and not confusing in any way. Well done.
                         </i>
                       </p>
                     </div>
@@ -218,10 +196,7 @@ export default function Home() {
 
         <DownloadButton />
 
-        <div
-          className="row justify-content-center pt-3"
-          id="improve-connection"
-        >
+        <div className="row justify-content-center pt-3" id="improve-connection">
           <div className="col-md-6 col-sm-12 text-center">
             {/* <a name="improve-connection"></a> */}
             <h3 className="text-center">Improve your Internet connection</h3>
@@ -252,10 +227,8 @@ export default function Home() {
             <h3 className="text-center">FAQ</h3>
             <strong>Q:</strong> Where is the extension icon?
             <br />
-            <strong>A:</strong> At some point Google Chrome changed the way
-            extensions are displayed. You need to click on the puzzle icon to
-            the right of the address bar and then pin Internet Connection
-            Monitor
+            <strong>A:</strong> At some point Google Chrome changed the way extensions are displayed. You need to click
+            on the puzzle icon to the right of the address bar and then pin Internet Connection Monitor
             <br />
             <img
               src={require('public/img/activate-internet-connection-monitor-extension.png')}
@@ -264,49 +237,50 @@ export default function Home() {
             />
             <br />
             <br />
-            <strong id="statuses">Q:</strong> What exactly can be monitored?
+            <strong id="statuses">Q:</strong> What are the connection statuses?
             <br />
-            <strong>A:</strong> The extension monitors the Internet connection
-            and reports 3 statuses:
+            <strong>A:</strong> The extension monitors the Internet connection and reports 3 statuses:
             <ul style={{ listStyle: 'none' }}>
               <li>
                 <strong>🟢 Online:</strong> Internet connected
               </li>
               <li>
-                <strong>🟠 Connection issues:</strong> if Chrome itself cannot
-                properly determine whether Internet connection is down while
-                you're connected to LAN (Wi-Fi/Ethernet) - this status will
-                popup. Most likely, your LAN (Wi-Fi/Ethernet) is connected, but
-                there is no Internet connection behind it. In most cases, it is
-                ISP/provider issue
+                <strong>🟠 Connection issues or "No Internet connection. Wi-Fi/LAN OK":</strong> if Chrome itself cannot
+                properly determine whether Internet connection is down while you're connected to LAN (Wi-Fi/Ethernet) -
+                this status will popup. Most likely, your LAN (Wi-Fi/Ethernet) is connected, but there is no Internet
+                connection behind it. In most cases, it is ISP/provider issue
               </li>
               <li>
-                <strong>🔴 Offline:</strong> Internet disconnected. LAN
-                (Wi-Fi/Ethernet) may work or not, but Internet itself is
-                unavailable
+                <strong>🔴 Offline or "No Internet connection":</strong> Internet disconnected. LAN (Wi-Fi/Ethernet) may
+                work or not, but Internet itself is unavailable
               </li>
             </ul>
             <strong>Q:</strong> How does the extension test the connectivity?
             <br />
-            <strong>A:</strong> The extension uses a combination of Chrome
-            internal API and pinging Google servers via https (port 443). It
-            does not expose any open ports or something else that could
-            compromise user's security
+            <strong>A:</strong> The extension uses a combination of Chrome internal API and pinging Google servers via
+            https (port 443). It does not expose any open ports or something else that could compromise user's security
             <br />
             <br />
             <strong>Q:</strong> What is the testing interval?
             <br />
-            <strong>A:</strong> How frequently to ping Google servers to
-            determine the status of Internet connection. The option is
-            configurable: check very 1, 2, 3 or 5 seconds
+            <strong>A:</strong> How frequently to ping Google servers to determine the status of Internet connection.
+            The option is configurable: check very 1, 2, 3 or 5 seconds
             <br />
             <br />
-            <strong>Q:</strong> Does this extension have access to my browsing
-            history, etc?
+            <strong>Q:</strong> Does this extension have access to my browsing history, etc?
             <br />
-            <strong>A:</strong> It does NOT. Moreover, it does not require any
-            special access at all (you can notice that other extensions ask you
-            to give them some permissions during the installation process)
+            <strong>A:</strong> It does NOT. Moreover, it does not require any special access at all (you can notice
+            that other extensions ask you to give them some permissions during the installation process)
+            <br />
+            <br />
+            <strong>Q:</strong> Does this extension record my IP address or something else?
+            <br />
+            <strong>A:</strong> A: It does NOT. The extension uses free API
+            <a href="https://www.ipify.org/" target="_blank" rel="noopener noreferrer nofollow">
+              ipify.org
+            </a>{' '}
+            to get the public IP address. Read the Privacy Policy to get a better perspective on your data's privacy:{' '}
+            <Link href="/privacy-policy.html">Privacy Policy</Link>
             <br />
             <br />
             <strong>Q:</strong> Can this extension measure Internet speed?
@@ -323,43 +297,33 @@ export default function Home() {
             <br />
             <strong>Q:</strong> Will it work if Chrome is closed?
             <br />
-            <strong>A:</strong> Not, it will not. You need to have a Chrome
-            window open to track your connection log. It's relatively easy to
-            add Chrome to autostart on Windows, Mac or Linux
+            <strong>A:</strong> Not, it will not. You need to have a Chrome window open to track your connection log.
+            It's relatively easy to add Chrome to autostart on Windows, Mac or Linux
             <br />
             <br />
             <strong>Q:</strong> Will it work if computer is in sleep?
             <br />
-            <strong>A:</strong> Yes, it should work, but the mechanism of
-            tracking the disconnects while the computer is in sleep has not been
-            thoroughly tested. Macs, for example, wake up every couple minutes
-            and ICM checks the connection. But do not rely on precise
-            measurement during the computer sleep, keep the computer running.
-            Alternatively, use <strong>Realtime monitor</strong> inside ICM to
-            check what's going on. Access it via main extension popup
+            <strong>A:</strong> Yes, it should work, but the mechanism of tracking the disconnects while the computer is
+            in sleep has not been thoroughly tested. Macs, for example, wake up every couple minutes and ICM checks the
+            connection. But do not rely on precise measurement during the computer sleep, keep the computer running.
+            Alternatively, use <strong>Realtime monitor</strong> inside ICM to check what's going on. Access it via main
+            extension popup
             <br />
             <br />
-            <strong>Q:</strong> Can you use it on Microsoft EDGE, Brave or
-            Chromium?
+            <strong>Q:</strong> Can you use it on Microsoft EDGE, Brave or Chromium?
             <br />
-            <strong>A:</strong> Yes, you can. It works on all Chromium-based
-            browsers
+            <strong>A:</strong> Yes, you can. It works on all Chromium-based browsers
             <br />
             <br />
             <strong>Q:</strong> Is there a Firefox extension?
             <br />
-            <strong>A:</strong> Currently, only Chromium-based browsers are
-            supported (Google Chrome, Brave, Microsoft EDGE, etc) are supported.
-            There is{' '}
-            <Link href="https://github.com/InternetConnectionMonitor/icm-public/issues/29">
-              a feature request
-            </Link>{' '}
-            to implement a Firefox version. Vote for it if you want to speed up
-            the development
+            <strong>A:</strong> Currently, only Chromium-based browsers are supported (Google Chrome, Brave, Microsoft
+            EDGE, etc) are supported. There is{' '}
+            <Link href="https://github.com/InternetConnectionMonitor/icm-public/issues/29">a feature request</Link> to
+            implement a Firefox version. Vote for it if you want to speed up the development
             <br />
             <br />
-            <strong>Q:</strong> Can you give an advice on how to improve
-            Internet connection overall?
+            <strong>Q:</strong> Can you give an advice on how to improve Internet connection overall?
             <br />
             <strong>A:</strong> Read the article about{' '}
             <Link href="/3-primary-reasons-of-poor-internet-connection.html">
@@ -368,12 +332,13 @@ export default function Home() {
             <br />
             <br />
             Icons by{' '}
-            <a
-              href="https://svgrepo.com"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-            >
+            <a href="https://svgrepo.com" target="_blank" rel="noopener noreferrer nofollow">
               svgrepo.com
+            </a>
+            <br />
+            Sounds by{' '}
+            <a href="https://pixabay.com" target="_blank" rel="noopener noreferrer nofollow">
+              pixabay.com
             </a>
           </div>
         </div>
@@ -400,21 +365,15 @@ export default function Home() {
                 </Link>
               </li>
               <li>
-                For updates and news:{' '}
-                <Link href="https://twitter.com/icm_hq">
-                  Follow ICM on Twitter
-                </Link>
+                For updates and news: <Link href="https://twitter.com/icm_hq">Follow ICM on Twitter</Link>
               </li>
             </ul>
           </div>
         </div>
 
         {/* <DownloadButton /> */}
-
         {/* <Donate /> */}
-
-        {/* <StandWithUkraine /> */}
-        <MadeWithLoveInUkraine />
+        <MadeWithLove />
       </div>
     </MainLayout>
   );

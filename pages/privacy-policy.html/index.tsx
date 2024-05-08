@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import {
-  MadeWithLoveInUkraine,
+  MadeWithLove,
   MainLayout,
-  StandWithUkraine,
 } from '@/components';
 
 export default function PrivacyPolicy() {
@@ -34,7 +33,9 @@ export default function PrivacyPolicy() {
         <div className="row">
           <div className="col pt-4">
             <h1>Privacy Policy – Internet Connection Monitor</h1>
-            <p style={{ color: '#aaa' }}><i>Last updated: Nov 6, 2023</i></p>
+            <p style={{ color: '#aaa' }}>
+              <i>Last updated: May 3, 2024</i>
+            </p>
             <p>
               Privacy Policy for a Google Chrome extension for monitoring
               Internet connectivity located at{' '}
@@ -95,6 +96,14 @@ export default function PrivacyPolicy() {
               : to be able to improve The Application, the Owner uses Google
               Analytics ANONYMOUS visitor data which is strictly limited to
               getting insight about users behavior within The Application.
+            </p>
+            <p>
+              The service used to determine user's IP address is called{' '}
+              <a href="https://www.ipify.org/" target="_blank" rel="noreferrer">
+                ipify
+              </a>
+              . They claim that "No visitor information is ever logged.
+              Period.".
             </p>
             <h3>Definitions and legal references</h3>
             <h4>Personal Data (or Data)</h4>
@@ -172,8 +181,8 @@ export default function PrivacyPolicy() {
             </p>
           </div>
         </div>
-        <StandWithUkraine />
-        <MadeWithLoveInUkraine />
+
+        <MadeWithLove />
       </div>
     </MainLayout>
   );

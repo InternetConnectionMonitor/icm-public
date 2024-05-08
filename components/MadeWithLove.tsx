@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
 
-const MadeWithLoveInUkraine: NextPage = () => {
+const MadeWithLove: NextPage = () => {
   return (
     <div className="container">
       <div className="row">
@@ -17,4 +17,4 @@ const MadeWithLoveInUkraine: NextPage = () => {
   );
 };
 
-export default MadeWithLoveInUkraine;
+export default MadeWithLove;

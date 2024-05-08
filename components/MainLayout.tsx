@@ -14,8 +14,9 @@ const MainLayout: NextPage<Props> = ({ children }) => {
           <Link className="navbar-brand d-flex" href="/">
             <img
               src={require('public/img/ICM-logo-256.png')}
-              height="31"
-              alt=""
+              height={31}
+              width={31}
+              alt="Internet Connection Monitor Logo"
             />
             &nbsp;
             <span>Internet Connection Monitor</span>
@@ -52,7 +53,7 @@ const MainLayout: NextPage<Props> = ({ children }) => {
                     Donate
                   </Link>
                 </li> */}
-                <li className="nav-item pe-3">
+                <li className="nav-item pe-2">
                   <Link
                     className="nav-link"
                     href="#faq"

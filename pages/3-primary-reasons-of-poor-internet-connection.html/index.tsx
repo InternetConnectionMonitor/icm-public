@@ -2,9 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import {
-  MadeWithLoveInUkraine,
+  MadeWithLove,
   MainLayout,
-  StandWithUkraine,
 } from '@/components';
 
 const routerData = [
@@ -318,8 +317,7 @@ export default function ThreePrimaryReasonsOfPoorInternetConnection() {
           </div>
         </div>
 
-        {/* <StandWithUkraine /> */}
-        <MadeWithLoveInUkraine />
+        <MadeWithLove />
       </div>
     </MainLayout>
   );

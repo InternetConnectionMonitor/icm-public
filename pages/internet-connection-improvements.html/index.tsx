@@ -2,9 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import {
-  MadeWithLoveInUkraine,
+  MadeWithLove,
   MainLayout,
-  StandWithUkraine,
 } from '@/components';
 
 export default function InternetConnectionImprovements() {
@@ -312,9 +311,7 @@ export default function InternetConnectionImprovements() {
             </a>
           </div>
         </div> */}
-
-        {/* <StandWithUkraine /> */}
-        <MadeWithLoveInUkraine />
+        <MadeWithLove />
       </div>
     </MainLayout>
   );
