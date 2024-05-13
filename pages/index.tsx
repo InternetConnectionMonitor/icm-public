@@ -1,11 +1,7 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import { DownloadButton, MadeWithLove, MainLayout } from '@/components';
-import Donate from '@/components/Donate';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <MainLayout>
       <div className="container-fluid">
@@ -37,26 +33,29 @@ export default function Home() {
             <h5 className="text-center">🎯 ICM IS THE BEST FOR</h5>
             <ul>
               <li>Recording and analyzing outages of Internet connection</li>
+              <li>Displaying your public IP</li>
               <li>Verifying ISP/provider issues</li>
-              <li>Verifying some hardware issues</li>
+              <li>Verifying some router/modem/hardware issues</li>
             </ul>
             <h5 className="text-center">💻 FEATURES</h5>
             <ul>
               <li>Precise connectivity test with configurable testing interval</li>
               <li>Latency measurement</li>
+              <li>Show public IP address</li>
               <li>Detect when Internet doesn't work even with operating LAN connection (Wi-Fi or Ethernet)</li>
               <li>Disconnects, availability and downtime stats</li>
               <li>Play sound when connection goes online or offline</li>
               <li>Events log with CSV and PDF export</li>
               <li>Realtime connectivity and latency monitoring</li>
               <li>Light and dark themes support</li>
+              <li>Adjustable icons and sounds</li>
             </ul>
-            <h5 className="text-center">🚀 NEW IN ICM v5</h5>
+            <h5 className="text-center">🚀 NEW IN ICM v5.2</h5>
             <ul>
-              <li>Realtime connectivity and latency monitoring</li>
-              <li>Main popup opens up faster</li>
-              <li>A couple of bugs fixed</li>
-              <li>UI is like it was designed by Jony Ive</li>
+              <li>Show public IP address</li>
+              <li>On/Off switch to turn the monitoring off</li>
+              <li>Sound themes</li>
+              <li>Stats break-down: Today / 7 days / 30 days / All time</li>
             </ul>
             <h5 className="text-center mb-3">📷 SCREENSHOTS</h5>
             <div id="carouselExampleIndicators" className="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
@@ -67,31 +66,31 @@ export default function Home() {
                   data-bs-slide-to="0"
                   className="active"
                   aria-current="true"
-                  aria-label="Screenshot 1"
+                  aria-label="ICM Screenshot 1"
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="1"
-                  aria-label="Screenshot 2"
+                  aria-label="ICM Screenshot 2"
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="2"
-                  aria-label="Screenshot 3"
+                  aria-label="ICM Screenshot 3"
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="3"
-                  aria-label="Screenshot 4"
+                  aria-label="ICM Screenshot 4"
                 ></button>
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to="4"
-                  aria-label="Screenshot 5"
+                  aria-label="ICM Screenshot 5"
                 ></button>
               </div>
               <div className="carousel-inner shadow rounded">
@@ -275,12 +274,12 @@ export default function Home() {
             <br />
             <strong>Q:</strong> Does this extension record my IP address or something else?
             <br />
-            <strong>A:</strong> A: It does NOT. The extension uses free API
+            <strong>A:</strong> It does NOT. The extension uses{' '}
             <a href="https://www.ipify.org/" target="_blank" rel="noopener noreferrer nofollow">
               ipify.org
             </a>{' '}
-            to get the public IP address. Read the Privacy Policy to get a better perspective on your data's privacy:{' '}
-            <Link href="/privacy-policy.html">Privacy Policy</Link>
+            API to get the public IP address. Read the <Link href="/privacy-policy.html">Privacy Policy</Link> to get a
+            better perspective on your data's privacy.
             <br />
             <br />
             <strong>Q:</strong> Can this extension measure Internet speed?
@@ -343,9 +342,13 @@ export default function Home() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col text-center pt-5 pb-3">
+          <div className="col-md-6 col-sm-12 pt-4 mb-2">
             <h3 className="text-center">Privacy Policy</h3>
-            <Link href="/privacy-policy.html">ICM Privacy Policy</Link>
+            <ul>
+              <li className="pb-1">
+                <Link href="/privacy-policy.html">Internet Connection Monitor Privacy Policy</Link>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="row justify-content-center">
@@ -353,26 +356,19 @@ export default function Home() {
             <h3 className="text-center">Support</h3>
             <ul>
               <li className="pb-1">
-                For support and questions:{' '}
-                <Link href="https://chromewebstore.google.com/detail/hgccfdagfbilbdbkgmfdmmdfmjjoakfo/support">
-                  extension's support page in Chrome store
+                For support and requests:{' '}
+                <Link href="https://github.com/InternetConnectionMonitor/icm-public/discussions">
+                  ICM discussions on GitHub
                 </Link>
               </li>
-              <li>
-                For bug reports and feature requests:{' '}
-                <Link href="https://github.com/InternetConnectionMonitor/icm-public/issues">
-                  ICM issues page on GitHub
-                </Link>
-              </li>
-              <li>
-                For updates and news: <Link href="https://twitter.com/icm_hq">Follow ICM on Twitter</Link>
+              <li className="pb-1">
+                For updates and news: follow <Link href="https://twitter.com/icm_hq">ICM on Twitter</Link>
               </li>
             </ul>
           </div>
         </div>
 
         {/* <DownloadButton /> */}
-        {/* <Donate /> */}
         <MadeWithLove />
       </div>
     </MainLayout>
